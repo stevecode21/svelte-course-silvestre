@@ -1,5 +1,6 @@
 <script>
     export let language;
+    export let name, lastName;
 </script>
 
-<h1>Soy {language}</h1>
+<h1>Soy {language} {name} {lastName}</h1>
